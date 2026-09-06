@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gubby Cool Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="logo">Gubby cool games</div>
+
+```
+<div class="top-actions">
+  <button id="homeBtn">Home</button>
+  <button id="aboutBtn">About</button>
+</div>
+```
+
+  </header>
+
+  <main>
+    <section id="homePage" class="page active">
+      <div class="hero">
+        <p class="eyebrow">WELCOME TO THE GUBBY ZONE</p>
+
+```
+    <h1>
+      Pick a game.
+      <span>Go silly.</span>
+    </h1>
+
+    <p class="subtitle">
+      A growing collection of games we're gonna make together.
+    </p>
+  </div>
+
+  <div class="game-menu" id="gameMenu"></div>
+</section>
+
+<section id="aboutPage" class="page">
+  <div class="about-card">
+    <p class="eyebrow">ABOUT</p>
+
+    <h2>Gubby cool games</h2>
+
+    <p>
+      This is our little game hub. New games can be added to the menu
+      whenever we make them.
+    </p>
+
+    <button class="back-btn" id="backBtn">
+      Back to games
+    </button>
+  </div>
+</section>
+```
+
+  </main>
+
+  <div class="modal hidden" id="gameModal">
+    <div class="modal-card">
+      <button class="close" id="closeModal">×</button>
+
+```
+  <div class="modal-icon" id="modalIcon">🎮</div>
+
+  <h2 id="modalTitle">Game</h2>
+
+  <p id="modalDescription">
+    Coming soon!
+  </p>
+
+  <button class="play-btn" id="playBtn">
+    PLAY
+  </button>
+</div>
+```
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
